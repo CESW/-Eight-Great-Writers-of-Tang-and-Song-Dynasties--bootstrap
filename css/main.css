@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding:50px 0;
+}
+
+/*导航区域*/
+.pl100 {
+	padding-left:100px;
+}
+/*幻灯片区域*/
+.carousel {
+	height:400px;
+	background-color:#000;/*图片没有填满的地方用黑色填充*/	
+	margin-bottom:60px;/*图片与下一内容的间距*/
+	
+}
+.carousel .item {/*同时需要对其子元素item进行设置*/
+	height:400px;
+	background-color:#000;
+}
+.carousel img {
+	width:100%;	/*图片自动缩放填满*/	
+}
+	
+.carousel-caption p {
+	color:#FFF; 
+	font-size:20px;
+	margin-bottom:20px;
+	line-height:1.8;
+}
+/*简述*/
+#summary_container .col-md-3 {
+	text-align:center;
+}
+hr.divider {
+	margin: 40px 0;
+}
+/**特点区域**/
+.tab-content .row {
+	padding:30px 0;
+}
+
+.col-md-9 h2{
+	margin-top:20px;
+	font-size:50px;
+	color:#00F;
+}
+.col-md-9 h2 span {
+	font-size:28px;
+	color:#999;
+}
+.col-md-9 p{
+	font-size:20px;
+	color:#666;
+}
